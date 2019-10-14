@@ -1,0 +1,71 @@
+body {
+    background-color: #bddce0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+    border: 8px ridge #696969;
+    color: #181818;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    width: 400px;
+    height: 500px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 700px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        max-width: 900px;
+    }
+
+    h1 {
+        font-size: 120px;
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+}
