@@ -1,5 +1,10 @@
 body {
-    background-color: #bddce0;
+    background: url(GamerMeme2.jpg) repeat 0 0;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.781);
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -7,44 +12,30 @@ body {
 }
 
 h1 {
-    border: 8px ridge #696969;
-    color: #181818;
+    border: 8px ridge #c7c7c7;
+    color: #ffffff;
     font-family: 'Playfair Display SC', serif;
     font-size: 50px;
     text-align: center;
 }
 
 h2 {
-    color: #000000;
+    color: #ffffff;
     font-family: 'Cinzel', serif;
     font-size: 25px;
 }
 
 p {
+    color: #ffffff;
     font-family: 'Cardo', serif;
     font-size: 15px;
 }
 
-h3 {
-    border: 8px solid #141414;
-    
-    img {
-        max-width: 100%;
-        width: 190px;
-        height: 300px;
-    }
-    
-    .two {
-        max-width: 100%;
-        width: 175px;
-        height: 300px;
-    }
-    
-    .three {
-        max-width: 100%;
-        width: 300px;
-        height: 200px;
-    }
+img {
+    border: 8px ridge #c7c7c7;
+    max-width:100%;
+    width: 500px;
+    height: 200px;
 }
 
 .center {
