@@ -1,5 +1,7 @@
 body {
-    background: url(GamerMeme2.jpg) repeat 0 0;
+    background: url(GamerMeme6.jpg) left top repeat-x, 
+    url(GamerMeme6.jpg) right bottom repeat-x,
+    url(GamerMeme2.jpg) right bottom repeat;
     background-attachment: fixed;
 }
 
@@ -25,6 +27,12 @@ h2 {
     font-size: 25px;
 }
 
+h3 {
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+}
+
 p {
     color: #ffffff;
     font-family: 'Cardo', serif;
@@ -32,10 +40,25 @@ p {
 }
 
 img {
-    border: 8px ridge #c7c7c7;
-    max-width:100%;
-    width: 500px;
-    height: 200px;
+    border: 8px ridge #d3bc38;
+    max-width: 100%;
+    width: 512px;
+    height: 256px;
+}
+
+.one {
+    border: 8px ridge #476097;
+    height: 512px;
+}
+
+.two {
+    border: 8px ridge #ad4545;
+    height: 512px;
+}
+
+.three {
+    border: 8px ridge #3f9955;
+    height: 512px;
 }
 
 .center {
@@ -59,9 +82,10 @@ img {
     }
 }
 
+
 @media (min-width: 1200px) {
-    body {
-        max-width: 900px;
+    .container {
+        max-width: 1200px;
     }
 
     h1 {
