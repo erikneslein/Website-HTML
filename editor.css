@@ -1,7 +1,7 @@
 body {
-    background: url(GamerMeme6.jpg) left top repeat-x, 
-    url(GamerMeme6.jpg) right bottom repeat-x,
-    url(GamerMeme2.jpg) right bottom repeat;
+    background: url(memes/GamerMeme6.jpg) left top repeat-x, 
+    url(memes/GamerMeme6.jpg) right bottom repeat-x,
+    url(memes/GamerMeme2.jpg) right bottom repeat;
     background-attachment: fixed;
 }
 
@@ -59,6 +59,11 @@ img {
 .three {
     border: 8px ridge #3f9955;
     height: 512px;
+}
+
+.four {
+    border: 8px ridge #5e5e5e;
+    height: 480px;
 }
 
 .center {
